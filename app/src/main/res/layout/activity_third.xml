@@ -8,69 +8,73 @@
     android:background="@drawable/background"
     tools:context=".MainActivity">
 
-
     <Button
-        android:id="@+id/button"
-        android:layout_width="136dp"
-        android:layout_height="121dp"
+        android:id="@+id/button4"
+        android:layout_width="121dp"
+        android:layout_height="110dp"
         android:background="@drawable/heart_button_white"
+        android:fillColor="#FFFFFFFF"
         android:fontFamily="@font/heart_font"
-        android:text="Noo"
+        android:text="Still No"
         android:textColor="@color/red"
-        android:textSize="30dp"
+        android:textSize="28dp"
         app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintHorizontal_bias="0.831"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.579"
+        app:layout_constraintVertical_bias="0.602"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="339dp"
-        android:layout_height="74dp"
+        android:layout_width="360dp"
+        android:layout_height="63dp"
         android:fontFamily="@font/heart_font"
-        android:text="Will you be my Valentine ??? "
+        android:text="I have a Surprise in my Pocket"
         android:textColor="@color/white"
         android:textSize="38dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.38" />
+        app:layout_constraintVertical_bias="0.41"
+        tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="119dp"
-        android:layout_height="116dp"
+        android:id="@+id/button5"
+        android:layout_width="118dp"
+        android:layout_height="104dp"
         android:background="@drawable/heart_button_red"
+        android:fillColor="#FF0000"
         android:fontFamily="@font/heart_font"
         android:text="Yess"
         android:textColor="@color/white"
-        android:textSize="30dp"
+        android:textSize="28dp"
         app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintHorizontal_bias="0.16"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.583"
+        app:layout_constraintVertical_bias="0.596"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="226dp"
-        android:layout_height="216dp"
+        android:layout_width="141dp"
+        android:layout_height="140dp"
 
-        android:src="@drawable/first"
+        android:src="@drawable/third"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.016"
+        app:layout_constraintHorizontal_bias="0.862"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.147"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
